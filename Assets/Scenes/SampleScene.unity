@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &567786250 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1432007284524559618, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
+  m_PrefabInstance: {fileID: 1432007283754230921}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f21b4de85a8e3e409fe1220def141a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +531,22 @@ PrefabInstance:
     - target: {fileID: 1432007284524559619, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
       propertyPath: m_Name
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432007284524559621, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432007284524559621, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 567786250}
+    - target: {fileID: 1432007284524559621, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeText
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432007284524559621, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonCounter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1432007285199010761, guid: e6bae832931579046ac0fd69faf1bbee, type: 3}
       propertyPath: m_Pivot.x
